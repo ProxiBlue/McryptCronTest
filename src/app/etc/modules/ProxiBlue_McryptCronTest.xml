@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <ProxiBlue_McryptCronTest>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends></depends>
+        </ProxiBlue_McryptCronTest>
+    </modules>
+</config>

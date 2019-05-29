@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <ProxiBlue_McryptCronTest>
+            <version>1.0.0</version>
+        </ProxiBlue_McryptCronTest>
+    </modules>
+    <global>
+        <models>
+            <proxiblue_mcryptcrontest>
+                <class>ProxiBlue_McryptCronTest_Model</class>
+            </proxiblue_mcryptcrontest>
+        </models>
+    </global>
+    <crontab>
+        <jobs>
+            <proxiblue_mcrypt_test>
+                <schedule>
+                    <cron_expr>*/2 * * * *</cron_expr>
+                </schedule>
+                <run>
+                    <model>proxiblue_mcryptcrontest/cron::run</model>
+                </run>
+            </proxiblue_mcrypt_test>
+        </jobs>
+    </crontab>
+</config>

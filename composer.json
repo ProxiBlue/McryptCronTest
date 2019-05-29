@@ -1,0 +1,15 @@
+{
+    "name": "ProxiBlue/McryptCronTest",
+    "license": "OSL-3.0",
+    "type": "magento-module",
+    "description": "Test a cron run encryption issue on MageMojo hosting",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors":[
+        {
+            "name":"Lucas van Staden",
+            "email":"sales@proxiblue.com.au"
+        }
+    ]
+}
