@@ -1,5 +1,5 @@
 {
-    "name": "ProxiBlue/McryptCronTest",
+    "name": "proxiblue/mcryptcrontest",
     "license": "OSL-3.0",
     "type": "magento-module",
     "description": "Test a cron run encryption issue on MageMojo hosting",
